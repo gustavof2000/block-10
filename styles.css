@@ -1,0 +1,125 @@
+main {
+    position: relative;
+}
+
+.top {
+    display: flex;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.top > div {
+    background-color: skyblue;
+    flex: 1;
+}
+
+.top > div:nth-child(2) {
+    margin: 0 10px 0 10px;
+}
+
+.mid {
+    background-color: skyblue;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.bot {
+    height: 20px;
+    background-color: greenyellow;
+}
+
+.circle {
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+}
+
+.one {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    left: 100px;
+    top: 80px;
+}
+
+.two {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    left: 250px;
+    top: 40px;
+}
+
+.three {
+    width: 120px;
+    height: 120px;
+    background-color: pink;
+    left: 280px;
+    top: 140px;
+}
+
+.four {
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+    left: 80px;
+    top: 30px;
+}
+
+.five {
+    width: 20px;
+    height: 20px;
+    background-color: pink;
+    left: 40px;
+    top: 250px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    z-index: 2;
+    position: absolute;
+}
+
+.tri-one {
+   border-left: 100px solid transparent;
+   border-right: 100px solid transparent;
+   border-bottom: 200px solid greenyellow;
+   top: 61%;
+   left: 70%;
+   z-index: 3;
+}
+
+.tri-two {
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 350px solid green;
+    top: 36%;
+    left: 40%;
+    z-index: 1;
+ }
+
+ h3 {
+    text-align: center;
+    margin-top: 4rem;
+ }
+
+ .form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+ }
+
+ .forminput {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+ }
+
+ .submit {
+    margin-top: 1rem;
+    padding: .5rem 3rem;
+    align-self: center;
+ }
